@@ -11,9 +11,9 @@ def main():
             continue
 
         title = story_info["title"]
-        url = story_info["url"]
+        link = story_info["url"]
 
-        print(f"Title: {title}\nURL: {url}\n")
+        print({"title": title, "link": link})
         time.sleep(1)
 
 
